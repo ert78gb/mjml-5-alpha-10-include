@@ -1,0 +1,12 @@
+<mjml lang="hu">
+  <mj-head>
+    <mj-include path="../_common/font-header.mjml"/>
+  </mj-head>
+  <mj-body background-color="#F9F9FA">
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text>Hello</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
