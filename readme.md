@@ -10,8 +10,9 @@ How to check the behaviour of the `ignoreIncludes` feature.
 
 The output is `<!-- mj-include denied -->` it shows the mjml denied include even the program runs in the root folder.
 
-Other way to test is run the `npm t` command in the project root folder and you will see mjml uses the default fonts instead of that defined in the included.
+Other way to test is run the `npm t` command in the project root folder, and you will see mjml uses the default fonts instead of that defined in the included.
 The test fails because the snapshot of alpha.8 and alpha.10 are not matching.
+You could run `npm run test:snapshot` it will update the `test/01.html` file, and you could use git diff tools to compare the differences of the 2 mjml version
 
 The mjml logic in the `lib/utils/get-html-email-content.js`
 
